@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Quest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Trivia Quest</h1>
+        <button id="start-game">Start Game</button>
+        <div id="question-container" class="hidden">
+            <p id="question"></p>
+            <div id="answers"></div>
+            <div id="feedback" class="feedback-message"></div>
+            <button id="next-question" class="hidden">Next Question</button>
+        </div>
+    </div>
+    <script src="api.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
